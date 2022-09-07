@@ -1,0 +1,47 @@
+.content {
+  width: 100%;
+  display: flex;
+  flex-direction: column;
+  justify-content: center;
+  align-items: center;
+}
+
+.filter {
+  align-self: flex-start;
+}
+
+.productList {
+  width: 100%;
+  padding: 2rem;
+  display: grid;
+  grid-template-columns: repeat(auto-fill, minmax(19rem, 1fr));
+  justify-content: center;
+  align-items: center;
+  gap: 2rem;
+}
+
+.contentProduct {
+  position: relative;
+}
+
+.product {
+  text-decoration: none;
+}
+
+.cart {
+  background-color: #f85555;
+  height: 3.2rem;
+  width: 3.2rem;
+  border-radius: 50%;
+  position: absolute;
+  right: 2rem;
+  bottom: 2rem;
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  cursor: pointer;
+}
+
+.cart:hover {
+  background-color: #f855559d;
+}

@@ -1,0 +1,49 @@
+.card {
+  width: 100%;
+  height: 24.6rem;
+  border: 0.1rem solid rgba(75, 75, 75, 0.288);
+  border-radius: 0.3rem;
+  box-shadow: 0 0 0.5rem rgb(211, 209, 209);
+}
+
+.card:hover {
+  box-shadow: 0 0 0.5rem rgb(173, 173, 173);
+}
+
+.cardImg {
+  width: 100%;
+  height: 15.6rem;
+  padding: 1rem;
+  display: flex;
+  justify-content: center;
+  align-items: center;
+}
+
+.img {
+  display: block;
+  max-width: 13rem;
+  max-height: 13.6rem;
+}
+
+.cardText {
+  height: 9rem;
+  padding: 1rem;
+  border-top: 0.1rem solid rgba(75, 75, 75, 0.288);
+  color: black;
+  display: flex;
+  flex-direction: column;
+  position: relative;
+}
+
+.textTitle {
+  margin-bottom: 1.5rem;
+}
+
+.textPrice {
+  color: rgba(105, 105, 105, 0.575);
+  margin-bottom: 0.3rem;
+}
+
+.price {
+  font-weight: 800;
+}

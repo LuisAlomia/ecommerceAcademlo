@@ -1,0 +1,42 @@
+.content {
+  padding: 1rem;
+}
+
+.contentPurchase {
+  width: 100%;
+  margin-top: 1rem;
+  border: 0.1rem solid rgb(221, 221, 221);
+  border-radius: 0.3rem;
+}
+
+.date {
+  padding: 1rem;
+  border-bottom: 0.1rem solid rgb(221, 221, 221);
+}
+
+.items {
+  background-color: rgb(240, 240, 240);
+  width: 100%;
+  min-height: 3rem;
+  padding: 1rem;
+  border-radius: 0.3rem;
+  display: grid;
+  grid-template-columns: 1fr 4rem 8rem;
+  grid-template-areas: "one twe three";
+}
+
+.contentItem {
+  padding: 1rem;
+}
+
+.tdTitle {
+  grid-area: one;
+}
+.tdQuantity {
+  grid-area: twe;
+  text-align: end;
+}
+.tdPrice {
+  grid-area: three;
+  text-align: end;
+}

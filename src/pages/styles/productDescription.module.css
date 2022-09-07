@@ -1,0 +1,173 @@
+.container {
+  width: 100%;
+  padding: 1rem;
+  overflow: hidden;
+}
+
+.content {
+  width: 100vw;
+  margin-top: 2rem;
+  padding: 2rem;
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  gap: 0;
+}
+
+.contentImgs {
+  width: 50%;
+  display: flex;
+  flex-direction: column;
+  gap: 1rem;
+  justify-content: center;
+  align-items: center;
+}
+
+.img img {
+  max-height: 15rem;
+  overflow: hidden;
+}
+
+.imgLlinks {
+  display: flex;
+  gap: 1rem;
+}
+
+.imgLink {
+  border: 0.1rem solid transparent;
+  border-radius: 0.3rem;
+  width: 6rem;
+  height: 6rem;
+  display: flex;
+  justify-content: center;
+  align-items: center;
+}
+
+.imgLink:hover {
+  border-color: #f85555;
+  cursor: pointer;
+}
+
+.link {
+  max-width: 5rem;
+  max-height: 5rem;
+}
+
+.contentDescription {
+  max-width: 40rem;
+  padding: 1rem;
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+  justify-content: center;
+  gap: 1.5rem;
+}
+
+.title {
+  width: 100%;
+  text-align: start;
+}
+
+.contentPrice {
+  width: 100%;
+  display: flex;
+  gap: 2rem;
+}
+
+.referencia {
+  color: rgba(105, 105, 105, 0.575);
+  margin-bottom: 0.5rem;
+}
+
+.price {
+  font-weight: 800;
+}
+
+.quantity {
+  display: flex;
+}
+
+.buttonQuantity {
+  width: 3rem;
+  border: 0.1rem solid rgba(105, 105, 105, 0.219);
+  padding: 0.2rem;
+  font-size: 1.2rem;
+  display: flex;
+  justify-content: center;
+  align-items: center;
+}
+
+.click:hover {
+  background-color: rgba(202, 202, 202, 0.301);
+  cursor: pointer;
+}
+
+.button {
+  background-color: #f85555;
+  width: 100%;
+  padding: 1rem;
+  border: none;
+  font-size: 1rem;
+  cursor: pointer;
+  border-radius: 0.3rem;
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  gap: 1rem;
+}
+
+.button:hover {
+  background-color: #f855559d;
+}
+
+.contentList {
+  width: 100%;
+  padding: 2rem;
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+  justify-content: center;
+}
+
+.productList {
+  width: 100%;
+  padding: 2rem;
+  display: grid;
+  grid-template-columns: repeat(auto-fill, minmax(19rem, 1fr));
+  justify-content: center;
+  align-items: center;
+  gap: 2rem;
+  overflow: hidden;
+}
+
+.listTitle {
+  width: 100%;
+}
+
+/* Responsive */
+
+@media (max-width: 750px) {
+  .container {
+    padding: 0;
+  }
+
+  .content {
+    flex-direction: column;
+    padding: 0;
+  }
+
+  .contentDescription {
+    width: 100%;
+  }
+}
+
+@media (max-width: 500px) {
+  .img img {
+    max-height: 15rem;
+    max-width: 15rem;
+  }
+
+  .contentList {
+    padding: 0;
+  }
+}

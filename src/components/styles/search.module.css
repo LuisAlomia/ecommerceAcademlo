@@ -1,0 +1,44 @@
+.form {
+  width: 100%;
+  padding: 2rem;
+  display: flex;
+  align-items: center;
+}
+
+.input {
+  width: 90%;
+  padding: 1rem;
+  font-size: 1rem;
+  outline: none;
+  border: 0.1rem solid rgba(190, 190, 190, 0.541);
+  border-radius: 0.3rem 0 0 0.3rem;
+}
+
+.button {
+  background-color: #f85555;
+  width: 10%;
+  padding: 0.84rem;
+  cursor: pointer;
+  border: none;
+  border-radius: 0 0.3rem 0.3rem 0;
+}
+
+.button:hover {
+  background-color: #f855559d;
+}
+
+/* Responsive */
+
+@media (max-width: 600px) {
+  .form {
+    padding: 1rem;
+  }
+
+  .input {
+    width: 80%;
+  }
+
+  .button {
+    width: 20%;
+  }
+}

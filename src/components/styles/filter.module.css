@@ -1,0 +1,33 @@
+.contentFilter {
+  padding: 2rem;
+}
+
+.filter {
+  display: flex;
+  align-items: center;
+  gap: 0.5rem;
+  font-weight: 700;
+  font-size: 1.2rem;
+}
+
+.filter:hover {
+  cursor: pointer;
+  color: #f85555;
+}
+
+.items {
+  list-style: none;
+  margin-top: 0.5rem;
+}
+
+.item {
+  width: 8rem;
+  padding: 0.5rem;
+  margin-left: 1.5rem;
+  border-radius: 0.3rem;
+}
+
+.item:hover {
+  background-color: #f85555;
+  cursor: pointer;
+}

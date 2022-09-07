@@ -1,0 +1,22 @@
+.content {
+  background-color: rgba(255, 255, 255, 0.623);
+
+  border-bottom: 0.1rem solid rgb(223, 223, 223);
+  border-left: 0.1rem solid rgb(223, 223, 223);
+  border-radius: 0 0 0 0.3rem;
+  height: 100%;
+  padding: 1rem;
+}
+
+.button {
+  background-color: #f85555;
+  width: 100%;
+  border: none;
+  border-radius: 0.3rem;
+  padding: 0.5rem;
+  cursor: pointer;
+}
+
+.button:hover {
+  background-color: #f855559d;
+}

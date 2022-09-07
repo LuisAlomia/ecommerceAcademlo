@@ -1,0 +1,86 @@
+.content {
+  height: 90vh;
+  display: flex;
+  flex-direction: column;
+  justify-content: center;
+  align-items: center;
+}
+
+.container {
+  width: 20rem;
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+  gap: 2rem;
+}
+
+.title {
+  width: 20rem;
+  color: rgb(88, 86, 86);
+  text-align: start;
+}
+
+.subTitle {
+  color: #2fa8f8;
+}
+
+.contentTest {
+  background-color: #d8f5fd;
+  width: 20rem;
+  padding: 1rem;
+  border-radius: 0.3rem;
+}
+
+.testTitle {
+  text-align: center;
+}
+
+.testText {
+  text-align: start;
+  margin-top: 1rem;
+  display: flex;
+  align-items: center;
+  gap: 0.5rem;
+}
+
+.form {
+  padding: 0.5rem;
+}
+
+.formLabel {
+  color: #727272e0;
+  display: block;
+  margin-bottom: 0.5rem;
+}
+
+.formInput {
+  width: 20rem;
+  margin-bottom: 1.5rem;
+  padding: 0.5rem;
+  display: block;
+  outline: none;
+  border: 0.1rem solid rgba(61, 61, 61, 0.432);
+  border-radius: 0.3rem;
+}
+
+.button {
+  background-color: #f85555;
+  width: 20rem;
+  padding: 0.7rem;
+  border: none;
+  border-radius: 0.3rem;
+  cursor: pointer;
+}
+
+.button:hover {
+  background-color: #f855559d;
+}
+
+.singUp {
+  width: 20rem;
+  text-align: start;
+}
+
+.singUp:hover .subTitle {
+  cursor: pointer;
+}

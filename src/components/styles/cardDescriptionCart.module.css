@@ -1,0 +1,31 @@
+.content {
+  background-color: white;
+  padding: 1rem;
+  margin: 0.5rem 0;
+  border: 0.1rem solid rgb(216, 215, 215);
+  border-radius: 0.3rem;
+  position: relative;
+}
+
+.button {
+  background-color: #f85555;
+  width: 2rem;
+  height: 2rem;
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  border: none;
+  border-radius: 50%;
+  position: absolute;
+  bottom: 1rem;
+  right: 1rem;
+  cursor: pointer;
+}
+
+.text {
+  margin: 0.5rem 0;
+}
+
+.button:hover {
+  background-color: #f855559d;
+}

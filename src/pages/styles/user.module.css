@@ -1,0 +1,17 @@
+.content {
+  text-align: center;
+}
+
+.image {
+  display: block;
+  width: 10rem;
+}
+
+.userName {
+  margin: 1rem;
+}
+
+.exit:hover {
+  cursor: pointer;
+  color: #f855559d;
+}
